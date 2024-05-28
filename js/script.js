@@ -16,7 +16,7 @@ $('#play').click(function () {
     $(".main").fadeIn("slow");
     sf.destroy();
     $('.balloon-border').animate({
-        top: -600
+        top: -1000
     }, 8000);
     var audio = $('.song')[0];
     audio.play();
